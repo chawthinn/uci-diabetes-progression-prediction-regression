@@ -11,15 +11,58 @@ This repository contains Assignment 3 for AML2203 - Advanced Python. It uses Sci
 
 ## Files
 
-- `assignment3_diabetes_regression.ipynb`: Main notebook with all code
-- `report_assignment3_347.pdf`: Final PDF report with screenshots
+- `scripts/AML2203_Assignment3_Chaw_916347.ipynb`: Main notebook with all code
+- `final_report/AML2203_Assignment3_Chaw_916347_final_report.pdf`: Final PDF report with analysis, plots, and interpretations
 
 ## Tech Stack
 
-- Python 3.10+
-- Scikit-learn
-- Pandas
-- Matplotlib / Seaborn
+* **Python 3.10+**
+* **Scikit-learn** – for model building, evaluation, and cross-validation
+* **Pandas** – for data manipulation
+* **NumPy** – for numerical operations
+* **Matplotlib** – for plotting
+* **Seaborn** – for visualization
+* **Statsmodels** – for Q-Q plot (goodness-of-fit analysis)
+
+## Notebook Structure
+
+This notebook is organized into clear sections to guide the end-to-end process of predicting diabetes progression using Linear Regression:
+
+1. **Objective & Background**
+   Brief overview of the project goals and context.
+
+2. **Dataset Introduction**
+   Summary of features available in the built-in Scikit-learn diabetes dataset.
+
+3. **Exploratory Data Analysis (EDA)**
+   Includes visual analysis to understand feature relationships and distributions.
+
+4. **Data Preprocessing**
+
+   * Standardizing features
+   * Dropping highly correlated variables
+   * Handling missing values
+   * Train-test splitting (80/20)
+
+5. **Model Building**
+
+   * Training with `LinearRegression`
+   * Applying Ridge and Lasso regularization
+
+6. **Model Evaluation**
+
+   * Performance metrics (MSE, RMSE, R²)
+   * Visualizations: Predicted vs Actual, Residuals plot, Q-Q plot
+
+7. **Model Interpretation**
+
+   * Coefficient analysis
+   * Feature importance discussion
+   * Linear regression assumptions
+   * Performance comparison (Linear, Ridge, Lasso)
+
+8. **Report & References**
+   Final insights and citation of sources used (e.g. MedlinePlus)
 
 ## Report
 
