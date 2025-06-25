@@ -20,3 +20,7 @@ This repository contains Assignment 3 for AML2203 - Advanced Python. It uses Sci
 - Scikit-learn
 - Pandas
 - Matplotlib / Seaborn
+
+## Report
+
+The final report (with all analysis, plots, and interpretations) can be found in the `final_report` folder as `AML2203_Assignment3_Chaw_916347_final_report.pdf`.
